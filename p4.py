@@ -16,6 +16,7 @@ print(df_sh.values)
 # task4
 print(df_sh.info()) # 查看表字段类型
 print(df_sh.describe()) # 查看数值型字段基本描述(含频率、均值、标准差、极值、四分位数)
+print(df_sh.describe(include=['O'])) # 查看字符型字段基本描述(含频率等)
 
 # task5-1
 print(df_sh[:3]) # 查看前3行数据
